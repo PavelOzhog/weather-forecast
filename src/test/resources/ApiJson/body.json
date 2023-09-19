@@ -1,8 +1,41 @@
 {
-  "id": 10,
-  "petId": 198772,
-  "quantity": 7,
-  "shipDate": "2022-09-10T09:13:05.208Z",
-  "status": "approved",
-  "complete": false
+  "request": {
+    "type": "City",
+    "query": "Tokio, Venezuela",
+    "language": "en",
+    "unit": "m"
+  },
+  "location": {
+    "name": "Tokio",
+    "country": "Venezuela",
+    "region": "Bolivar",
+    "lat": "6.583",
+    "lon": "-61.683",
+    "timezone_id": "America/Caracas",
+    "localtime": "2023-09-19 11:40",
+    "localtime_epoch": 1695123600,
+    "utc_offset": "-4.0"
+  },
+  "current": {
+    "observation_time": "03:40 PM",
+    "temperature": 35,
+    "weather_code": 113,
+    "weather_icons": [
+      "https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png"
+    ],
+    "weather_descriptions": [
+      "Sunny"
+    ],
+    "wind_speed": 5,
+    "wind_degree": 95,
+    "wind_dir": "E",
+    "pressure": 1012,
+    "precip": 0,
+    "humidity": 37,
+    "cloudcover": 24,
+    "feelslike": 38,
+    "uv_index": 9,
+    "visibility": 10,
+    "is_day": "yes"
+  }
 }

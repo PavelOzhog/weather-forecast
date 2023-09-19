@@ -1,0 +1,11 @@
+ {
+     "name": "Boston",
+     "country": "United States of America",
+     "region": "Massachusetts",
+     "lat": "42.358",
+     "lon": "-71.060",
+     "timezone_id": "America/New_York",
+     "localtime": "2023-09-19 16:10",
+     "localtime_epoch": 1695139800,
+     "utc_offset": "-4.0"
+ }

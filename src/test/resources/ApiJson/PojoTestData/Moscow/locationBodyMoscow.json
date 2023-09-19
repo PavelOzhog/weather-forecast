@@ -1,0 +1,11 @@
+ {
+     "name": "Moscow",
+     "country": "Russia",
+     "region": "Moscow City",
+     "lat": "55.752",
+     "lon": "37.616",
+     "timezone_id": "Europe/Moscow",
+     "localtime": "2023-09-19 23:14",
+     "localtime_epoch": 1695165240,
+     "utc_offset": "3.0"
+  }

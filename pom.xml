@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>sogaz.org</groupId>
-    <artifactId>sogaz-java-maven-test</artifactId>
+    <groupId>weather.org</groupId>
+    <artifactId>weather-java-maven-test</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -32,6 +32,7 @@
         <project.build.sourceEncoding>${encoding.type}</project.build.sourceEncoding>
         <project.reporting.outputEncoding>${encoding.type}</project.reporting.outputEncoding>
         <file.encoding>${encoding.type}</file.encoding>
+        <lombok_version>1.18.24</lombok_version>
 
 
     </properties>
@@ -39,11 +40,36 @@
 
     <dependencies>
 
+
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>${lombok_version}</version>
+            <scope>provided</scope>
+        </dependency>
+
+
+
         <!-- https://mvnrepository.com/artifact/io.rest-assured/rest-assured -->
         <dependency>
             <groupId>io.rest-assured</groupId>
             <artifactId>rest-assured</artifactId>
             <version>4.5.1</version>
+            <scope>test</scope>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/io.rest-assured/json-schema-validator -->
+        <dependency>
+            <groupId>io.rest-assured</groupId>
+            <artifactId>json-schema-validator</artifactId>
+            <version>4.3.3</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.hamcrest/hamcrest-all -->
+        <dependency>
+            <groupId>org.hamcrest</groupId>
+            <artifactId>hamcrest-all</artifactId>
+            <version>1.3</version>
             <scope>test</scope>
         </dependency>
 

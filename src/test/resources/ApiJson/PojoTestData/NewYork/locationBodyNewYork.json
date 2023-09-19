@@ -1,0 +1,11 @@
+ {
+     "name": "New York",
+     "country": "United States of America",
+     "region": "New York",
+     "lat": "40.714",
+     "lon": "-74.006",
+     "timezone_id": "America/New_York",
+     "localtime": "2023-09-19 16:14",
+     "localtime_epoch": 1695140040,
+     "utc_offset": "-4.0"
+  }

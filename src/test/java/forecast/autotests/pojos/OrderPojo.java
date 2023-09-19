@@ -1,4 +1,4 @@
-package sogaz.autotests.pojos;
+package forecast.autotests.pojos;
 
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
